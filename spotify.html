@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo">
+                    <i class="fa-brands fa-spotify"></i>
+                </div>
+            </div>
+            <div class="nav-home">
+                <div class="home-logo ">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <div class="searchbar">
+                    <div class="search-iconbox">
+                        <div class="search-icon">
+                             <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <input placeholder="What do you want to play?" class="search-input">
+                    <div class="breakline"></div>
+                    <div class="compass">
+                        <i class="fa-regular fa-compass"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="otherbox">
+                <p>Premium</p>
+                <p>Support</p>
+                <p>Download</p>
+                <div class="break2"></div>
+                <p class="small">
+                    <i class="fa-solid fa-download"></i> Install App
+                </p>
+                <p class="small">Sign up</p>
+                <button class="login">Log in</button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="left-panel">
+        <div class="box1">
+            <p>Your Library 
+                <div class="plus">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            </p>
+        </div>
+
+        <div class="box2">
+            <div class="box2-1">
+                <p class="msg1">Create your first playlist</p>
+                <p class="msg2">It's easy, we'll help you</p>
+                <button class="playlist hovering">Create playlist</button>
+            </div>
+            <div class="box2-2">
+                <p class="msg1">Let's find some podcasts to follow</p>
+                <p class="msg2">We'll keep you updated on new episodes</p>
+                <button class="podcast hovering">Browse podcasts</button>
+            </div>
+            <p>line 1</p>
+            <p>line 2</p>
+            <p>line 3</p>
+            <p>line 4</p>
+   
+            <div class="scroll-bar"></div>
+        </div>
+
+        <div class="box3">
+                <ul>
+                <li>Legal</li>
+                <li>Safety&PrivacyCenter</li>
+                <li>PrivacyPolicy</li>
+                <li>Cookies</li>
+                <li>AboutAds</li>
+                <li>Accessibility</li>
+                </ul>
+                <p class="cookie"><a href="#">Cookies</a></p>
+        </div>
+        <button class="english">
+                <i class="fa-solid fa-globe"></i>
+             English
+        </button>
+
+        <span class="vertical-line"></span>
+    </div>
+
+    <main>
+        <div class="trend-songs">
+            <div class="trendsongs-content">
+                <h2>Trending Songs</h2>
+                <p class="show-all"><a>Show all</a></p>
+            </div>
+
+            <div class="trendrow">
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('sitare.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('FA9LA.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>FA9LA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Flipperachi</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('humdono.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Hum Dono (From "Tu Meri Main Tera Main...</span> 
+                                            <a>Vishal-Shekhar</a><a>, Shekhar Ravjiani</a><a>, Shruti Pathak,...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('bargad.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>bargad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Surf</a><a>, Arpit Bala</a><a>, toorjo dey</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('dhurann.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Ishq Jalakar - Karvaan</span> 
+                                            <a>Shashwat Sachdev</a><a>, Shahzad Ali</a><a>, Subhadeep...</a>
+                                        </p>
+                                </div>   
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('tim.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>   
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ts7.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ts8.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ts9.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ts10.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ts11.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>   
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ts12.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>
+                        
+            </div>      
+        </div>
+
+
+
+
+        <div class="pop-art">
+            <div class="popart-content">
+                <h2>Popular artists</h2>
+                <p class="popshow-all"><a>Show all</a></p>
+            </div>
+            <div class="popart-row">
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('pritam.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('arrahman.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('arijitt.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('sachjig.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('vishshek.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('atif.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('anirudh.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('udit.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('yoyo.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+
+                    <div class="trend-box">
+                                <div class="popartbox-content">
+                                    <div class="popart-img" style="background-image: url('sel.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>A.R. Rahman &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Artist</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+            </div>
+        </div>
+
+
+
+        <div class="paas">
+            <div class="paas-content">
+                <h2>Popular albums and singles</h2>
+                <p class="paasshow-all"><a>Show all</a></p>
+            </div>
+
+            <div class="trendrow">
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ashiqi.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('yjhd.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>FA9LA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Flipperachi</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('sanam.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Hum Dono (From "Tu Meri Main Tera Main...</span> 
+                                            <a>Vishal-Shekhar</a><a>, Shekhar Ravjiani</a><a>, Shruti Pathak,...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('finding.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>bargad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Surf</a><a>, Arpit Bala</a><a>, toorjo dey</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('goat.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Ishq Jalakar - Karvaan</span> 
+                                            <a>Shashwat Sachdev</a><a>, Shahzad Ali</a><a>, Subhadeep...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('ranjhan.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('uls.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('makingmem.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('various.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('scario.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        
+            </div>      
+        </div>
+
+
+
+
+        <div class="paas">
+            <div class="paas-content">
+                <h2>Popular radio</h2>
+                <p class="paasshow-all"><a>Show all</a></p>
+            </div>
+
+            <div class="trendrow">
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr1.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr2.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>FA9LA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Flipperachi</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr3.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Hum Dono (From "Tu Meri Main Tera Main...</span> 
+                                            <a>Vishal-Shekhar</a><a>, Shekhar Ravjiani</a><a>, Shruti Pathak,...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr4.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>bargad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Surf</a><a>, Arpit Bala</a><a>, toorjo dey</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr5.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Ishq Jalakar - Karvaan</span> 
+                                            <a>Shashwat Sachdev</a><a>, Shahzad Ali</a><a>, Subhadeep...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr6.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr7.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr8.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr9.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('pr10.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        
+            </div>      
+        </div>
+
+
+
+
+        <div class="paas">
+            <div class="paas-content">
+                <h2>Featured Charts</h2>
+                <p class="paasshow-all"><a>Show all</a></p>
+            </div>
+
+            <div class="trendrow">
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc1.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc2.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>FA9LA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Flipperachi</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc3.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Hum Dono From "Tu Meri Main Tera Main...</span> 
+                                            <a>Vishal-Shekhar</a><a>, Shekhar Ravjiani</a><a>, Shruti Pathak,...</a>
+                                        </p>
+                                </div>
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>   
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc4.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>bargad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                                            <a>Surf</a><a>, Arpit Bala</a><a>, toorjo dey</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc5.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Ishq Jalakar - Karvaan</span> 
+                                            <a>Shashwat Sachdev</a><a>, Shahzad Ali</a><a>, Subhadeep...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc6.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div> 
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>  
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc7.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>   
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc8.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>   
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc9.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>
+                        <div class="trend-box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('fc10.jpg');"></div>
+                                    <div class="play"></div>
+                                        <p>
+                                            <span>Sitaare (From "Ikkis")</span> 
+                                            <a>Arijit Singh</a><a>, White Noise Collectives</a><a>, Amitabh...</a>
+                                        </p>
+                                </div>  
+                                <div class="playbtn">
+                                    <i class="fa-solid fa-play"></i>
+                                </div> 
+                        </div>    
+            </div>      
+        </div>
+
+<!-- <div class="hrline"></div> -->
+
+        
+        <footer>
+            <hr class="hrline first">
+        <div class="foot-panel">
+            <!-- <br>
+            <br> -->
+            
+            <ul>
+                <span><p>Company</p></span>
+                <a>About</a>
+                <a>Jobs</a>
+                <a>For the Record</a>
+            </ul>
+            <ul>
+                <span><p>Communities</p></span>
+                <a>For Artists</a>
+                <a>Developers</a>
+                <a>Advertising</a>
+                <a>Investors</a>
+                <a>Vendors</a>
+            </ul>
+            <ul>
+                <span><p>Useful links</p></span>
+                <a>Support</a>
+                <a>Free Mobile App</a>
+                <a>Popular by Country</a>
+                <a>Import your music</a>
+                
+            </ul>
+            <ul>
+                <span><p>Spotify Plans</p></span>
+                <a>Premium Lite</a>
+                <a>Premium Standard</a>
+                <a>Premium Platinum</a>
+                <a>Premium Student</a>
+                <a>Spotify Free</a>
+            </ul>
+            <div class="footicons">
+                <div class="instaicon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="twiticon"><i class="fa-brands fa-twitter"></i></div>
+                <div class="fbicon"><i class="fa-brands fa-facebook"></i></div>
+            </div>
+        </div>
+        <!-- <div class="hrline"></div> -->
+        <div class="footpanel2">
+            <hr class="hrline second">
+            <p>
+                <i class="fa-solid fa-copyright"></i>
+                2025 Spotify AB
+            </p>
+        </div>
+    </footer>
+    </main>
+
+
+
+    <div class="color-bar">
+        <div class="color-bar1">
+            <p class="msgg1">Preview of Spotify</p>
+            <p class="msgg2">Sign up to get unlimited songs and podcasts with occassional ads. No credit card needed.</p>
+            <button class="color-button hovering">
+            <div class="dabba">
+                Sign up for free
+            </div>
+        </button>
+        </div>
+    </div>
+</body>
+</html>
+
+
